@@ -105,7 +105,7 @@ public class Activity
     {
         for (int i = numSecondsToRun; i >= 1; i--)
         {
-            Console.Write($"You may begin in: {i}");
+            Console.WriteLine($"You may begin in: {i}");
             Console.SetCursorPosition(0, Console.CursorTop);
             Thread.Sleep(1000);
         }
